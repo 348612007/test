@@ -16,7 +16,7 @@ jobs:
     name: checkout with lfs true
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (lfs: true)
+      - name: "Checkout (lfs: true)"
         uses: actions/checkout@v4
         with:
           lfs: true
